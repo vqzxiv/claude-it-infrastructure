@@ -1,13 +1,14 @@
-# Instructions pour Claude - Expert Infrastructure IT & SUMM-IT
+# Instructions pour Claude - Expert Technique SUMM-IT
 
 > **Date de création** : 2025-10-04  
 > **Dernière mise à jour** : 2025-10-04  
-> **Version** : 2.0
+> **Version** : 2.1
 > **Entreprise** : SUMM-IT
+> **Repository** : claude-technique
 
 ## 🎯 Objectif du repository
 
-Ce repository contient tous les contextes et ressources nécessaires pour que Claude assiste un professionnel IT de SUMM-IT dans son développement de compétences et son travail quotidien sur les technologies d'infrastructure : hyperviseurs, hyperconvergence, stockage, sauvegarde et sécurité réseau.
+Ce repository **claude-technique** contient tous les contextes et ressources nécessaires pour que Claude assiste un professionnel IT de SUMM-IT dans son développement de compétences et son travail quotidien sur les technologies d'infrastructure : hyperviseurs, hyperconvergence, stockage, sauvegarde et sécurité réseau.
 
 ---
 
@@ -15,7 +16,7 @@ Ce repository contient tous les contextes et ressources nécessaires pour que Cl
 
 ### Informations générales
 - **Entreprise** : SUMM-IT
-- **Rôle principal** : Expert Infrastructure IT
+- **Rôle principal** : Expert Technique Infrastructure IT
 - **Secteur d'activité** : Intégrateur de solutions IT
 - **Niveau technique** : Intermédiaire à Expert
 - **Objectif principal** : Excellence technique et préparation aux certifications
@@ -35,10 +36,10 @@ Ce repository contient tous les contextes et ressources nécessaires pour que Cl
 
 ---
 
-## 📋 Contexte du projet
+## 📋 Contexte du projet claude-technique
 
 ### Description générale
-Accompagnement personnalisé pour l'expertise technique SUMM-IT, couvrant l'ensemble du portfolio de solutions et technologies maîtrisées par l'entreprise, avec un focus sur l'apprentissage pratique et la préparation aux certifications professionnelles.
+Le repository **claude-technique** est l'outil d'accompagnement personnalisé pour l'expertise technique SUMM-IT, couvrant l'ensemble du portfolio de solutions et technologies maîtrisées par l'entreprise, avec un focus sur l'apprentissage pratique et la préparation aux certifications professionnelles.
 
 ### Objectifs principaux
 1. **Formation technique approfondie** sur le portfolio SUMM-IT
@@ -74,7 +75,7 @@ Accompagnement personnalisé pour l'expertise technique SUMM-IT, couvrant l'ense
 - **Quantum DXi** (4800, 6900, 9000)
 
 #### 💿 SAUVEGARDE - Software
-- **Dell** : PowerProtect Data Manager, Cyber Recovery, Avamar, Networker
+- **Dell** : PowerProtect Data Manager, Cyber Recovery, Cyber Sense, Avamar, Networker
 - **Veeam** : Backup & Replication (11, 12)
 - **HPE Zerto** (9.x, 10.x)
 - **Cohesity NetBackup** (10.x)
@@ -316,6 +317,51 @@ D) [Option D]
 
 ---
 
+## 🗂️ Structure du repository claude-technique
+
+```
+claude-technique/
+├── CLAUD.md                    # Ce fichier - Instructions principales
+├── README.md                   # Documentation générale
+├── contexte/                   # Contexte technique et professionnel
+│   ├── competences-summ-it.md  # Portfolio détaillé SUMM-IT
+│   ├── technologies.md         # Environnement technique
+│   ├── certifications.md       # Parcours de certification
+│   └── projets-actuels.md      # Projets en cours
+├── apprentissage/              # Ressources d'apprentissage
+│   ├── dell/                   # Contenu Dell
+│   ├── hpe/                    # Contenu HPE
+│   ├── vmware/                 # Contenu VMware
+│   ├── netapp/                 # Contenu NetApp
+│   ├── datacore/              # Contenu DataCore
+│   ├── veeam/                 # Contenu Veeam
+│   ├── cisco/                 # Contenu Cisco
+│   ├── fortinet/              # Contenu Fortinet
+│   └── README.md              # Guide d'utilisation
+├── quiz/                       # Quiz et exercices
+│   ├── fondamentaux/          # Niveau débutant
+│   ├── intermediaire/         # Niveau intermédiaire
+│   ├── avance/                # Niveau avancé
+│   ├── certification/         # Préparation certification
+│   └── README.md              # Organisation des quiz
+├── labs/                       # Exercices pratiques
+│   ├── scenarios/             # Scénarios de lab
+│   ├── configs/               # Exemples de configuration
+│   ├── troubleshooting/       # Cas de dépannage
+│   └── README.md              # Guide des labs
+├── documentation/              # Documentation technique
+│   ├── guides/                # Guides pratiques
+│   ├── best-practices/        # Bonnes pratiques SUMM-IT
+│   ├── references/            # Références rapides
+│   └── README.md              # Index documentation
+└── historique/                 # Historique et progression
+    ├── sessions/              # Notes de sessions
+    ├── progression.md         # Suivi de progression
+    └── objectifs.md           # Objectifs atteints
+```
+
+---
+
 ## 📈 Suivi de progression
 
 ### KPIs SUMM-IT
@@ -370,18 +416,28 @@ D) [Option D]
 - SASE et Zero Trust
 - Quantum-safe cryptography
 
+### Repository claude-technique
+Ce repository **claude-technique** est l'outil central pour :
+- La montée en compétences technique
+- La préparation aux certifications
+- Le support aux projets SUMM-IT
+- La documentation des best practices
+- Le partage de connaissances
+
 ---
 
 **Dernière révision** : 2025-10-04  
 **Par** : Claude (Assistant IA)  
 **Entreprise** : SUMM-IT  
+**Repository** : claude-technique  
+**URL** : https://github.com/vqzxiv/claude-technique  
 **Prochaine révision prévue** : 2025-11-04
 
 ---
 
 ## 🚀 Quick Start SUMM-IT
 
-Pour commencer immédiatement :
+Pour commencer immédiatement avec **claude-technique** :
 1. **Évaluation** : "Évalue mon niveau sur le portfolio SUMM-IT"
 2. **Priorités** : "Quelles technologies SUMM-IT dois-je maîtriser en priorité ?"
 3. **Formation** : "Explique-moi [technologie] dans le contexte SUMM-IT"
