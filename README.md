@@ -1,34 +1,61 @@
-# Claude IT Infrastructure - Profil Expert
+# Claude Technique - Profil Expert SUMM-IT
 
 ## 🎯 Description
 
-Repository dédié à l'assistance Claude pour la montée en compétences et l'expertise en infrastructure IT, avec un focus sur les technologies serveurs, stockage et virtualisation.
+Repository dédié à l'assistance Claude pour l'expertise technique SUMM-IT, couvrant l'ensemble du portfolio de solutions d'infrastructure IT : hyperviseurs, hyperconvergence, stockage, sauvegarde et sécurité réseau.
+
+## 🏢 Entreprise
+
+**SUMM-IT** - Intégrateur et expert en solutions d'infrastructure IT
 
 ## 🏗️ Technologies couvertes
 
-### Constructeurs principaux
-- **Dell Technologies** : Serveurs PowerEdge, Stockage PowerStore/PowerMax, VxRail
-- **HPE** : ProLiant, 3PAR, SimpliVity
-- **VMware** : vSphere, vSAN, NSX
-- **NetApp** : ONTAP, FAS/AFF
-- **DataCore** : SANsymphony, Software-Defined Storage
+### Portfolio complet SUMM-IT
+
+#### 🖥️ HYPERVISEURS
+- **VMware vSphere** (6.x, 7.x, 8.x)
+- **Microsoft Hyper-V** (2016, 2019, 2022)
+- **Proxmox VE** (7.x, 8.x)
+
+#### 🔄 HYPERCONVERGENCE
+- **Dell VxRail**
+- **HPE SimpliVity**
+- **DataCore SANsymphony**
+
+#### 💾 STOCKAGE
+- **Dell** : PowerStore, Unity XT
+- **HPE** : Artesca (Scality)
+- **NetApp** : FAS, AFF, ONTAP
+- **DataCore** : SANsymphony, vFilO
+
+#### 💿 SAUVEGARDE
+- **Hardware** : Dell DataDomain, HPE StoreOnce, Quantum DXi, Robotiques
+- **Software** : Veeam, Dell Cyber Recovery, Zerto, Cohesity, Atempo, Keepit
+
+#### 🔒 RÉSEAU & SÉCURITÉ
+- **Cisco** : Catalyst, Nexus, ASA, Meraki
+- **HPE Aruba** : Switches, Wireless, ClearPass
+- **Fortinet** : FortiGate, Security Fabric
+- **SentinelOne** : EDR/XDR
 
 ## 📚 Objectifs
 
-1. **Formation technique** approfondie
-2. **Préparation aux certifications** professionnelles
-3. **Résolution de problèmes** complexes
+1. **Formation technique** sur le portfolio SUMM-IT
+2. **Préparation aux certifications** multi-constructeurs
+3. **Résolution de problèmes** clients complexes
 4. **Veille technologique** continue
-5. **Création de quiz** et exercices pratiques
+5. **Support projets** et POCs
+6. **Cyber-résilience** et sécurité
 
 ## 🗂️ Structure du repository
 
 ```
-claude-it-infrastructure/
+claude-technique/
 ├── CLAUD.md                    # Instructions principales pour Claude
 ├── README.md                   # Ce fichier
 ├── contexte/                   # Contexte technique et professionnel
-│   ├── technologies.md         # Détails des technologies
+│   ├── competences-summ-it.md  # Portfolio détaillé SUMM-IT
+│   ├── technologies.md         # Environnement technique
 │   ├── certifications.md       # Parcours de certification
 │   └── projets-actuels.md      # Projets en cours
 ├── apprentissage/              # Ressources d'apprentissage
@@ -36,7 +63,10 @@ claude-it-infrastructure/
 │   ├── hpe/                    # Contenu HPE
 │   ├── vmware/                 # Contenu VMware
 │   ├── netapp/                 # Contenu NetApp
-│   └── datacore/              # Contenu DataCore
+│   ├── datacore/              # Contenu DataCore
+│   ├── veeam/                 # Contenu Veeam
+│   ├── cisco/                 # Contenu Cisco
+│   └── fortinet/              # Contenu Fortinet
 ├── quiz/                       # Quiz et exercices
 │   ├── fondamentaux/          # Niveau débutant
 │   ├── intermediaire/         # Niveau intermédiaire
@@ -48,7 +78,7 @@ claude-it-infrastructure/
 │   └── troubleshooting/       # Cas de dépannage
 ├── documentation/              # Documentation technique
 │   ├── guides/                # Guides pratiques
-│   ├── best-practices/        # Bonnes pratiques
+│   ├── best-practices/        # Bonnes pratiques SUMM-IT
 │   └── references/            # Références rapides
 └── historique/                 # Historique et progression
     ├── sessions/              # Notes de sessions
@@ -56,149 +86,155 @@ claude-it-infrastructure/
     └── objectifs.md           # Objectifs atteints
 ```
 
-## 🚀 Démarrage rapide
+## 🚀 Démarrage rapide SUMM-IT
 
-### Première utilisation
+### Commandes essentielles
 
-1. **Évaluation initiale**
+1. **Évaluation portfolio**
    ```
-   "Claude, évalue mon niveau actuel en virtualisation VMware"
-   ```
-
-2. **Plan personnalisé**
-   ```
-   "Crée un plan d'apprentissage pour atteindre le niveau VCP"
+   "Évalue mes compétences sur le portfolio SUMM-IT"
    ```
 
-3. **Session d'apprentissage**
+2. **Formation ciblée**
    ```
-   "Explique-moi les concepts de vSphere HA"
-   ```
-
-4. **Validation**
-   ```
-   "Crée un quiz de 15 questions sur vSphere HA"
+   "Explique-moi Veeam dans le contexte SUMM-IT"
+   "Architecture Cyber Recovery avec Dell"
    ```
 
-### Commandes utiles
+3. **Quiz spécialisés**
+   ```
+   "Quiz Veeam VMCE niveau Professional"
+   "20 questions sur Dell PowerStore"
+   ```
 
-- `"Explique [technologie]"` - Explication détaillée
-- `"Quiz [sujet] [niveau]"` - Création de quiz
+4. **Design solutions**
+   ```
+   "Architecture 3-2-1-1-0 pour client critique"
+   "Intégration VxRail + Veeam + DataDomain"
+   ```
+
+5. **Troubleshooting**
+   ```
+   "Problème réplication DataDomain"
+   "Performance SimpliVity dégradée"
+   ```
+
+### Commandes générales
+
+- `"Explique [technologie SUMM-IT]"` - Explication contextuelle
+- `"Quiz [vendor] [niveau]"` - Quiz personnalisé
 - `"Lab [technologie]"` - Exercice pratique
-- `"Troubleshoot [problème]"` - Aide au dépannage
-- `"Certification [nom]"` - Préparation certification
+- `"Design [solution]"` - Architecture client
+- `"Troubleshoot [problème]"` - Résolution avancée
+- `"Certification [nom]"` - Préparation exam
 
-## 📈 Niveaux de progression
+## 📈 Parcours SUMM-IT
 
-### 🟢 Foundation (0-3 mois)
-- Concepts de base
-- Architecture générale
-- Terminologie
+### 🟢 Phase 1 : Socle technique (0-6 mois)
+- Fondamentaux portfolio complet
+- Intégrations multi-vendors
+- Labs environnement SUMM-IT
 
-### 🟡 Associate (3-6 mois)
-- Configuration de base
-- Opérations courantes
-- Premiers troubleshooting
+### 🟡 Phase 2 : Spécialisation (6-12 mois)
+- Expertise 2-3 technologies clés
+- Certifications prioritaires (VCP, VMCE)
+- Participation POCs clients
 
-### 🟠 Professional (6-12 mois)
-- Design d'architecture
-- Optimisation
-- Intégration
+### 🔴 Phase 3 : Expertise (12+ mois)
+- Architecture solutions complexes
+- Lead technique projets
+- Certifications avancées
+- Mentorat équipe
 
-### 🔴 Expert (12+ mois)
-- Architecture complexe
-- Troubleshooting avancé
-- Innovation
+## 🎓 Certifications prioritaires SUMM-IT
 
-## 🎓 Certifications cibles
+### Must-have
+- **VMware VCP-DCV** - Virtualisation
+- **Veeam VMCE** - Backup & Replication
+- **Dell ISM** - Stockage
+- **Fortinet NSE** - Sécurité
 
-### Parcours suggéré
+### Avancées
+- **VMware VCAP**
+- **NetApp NCDA**
+- **Cisco CCNA/CCNP**
+- **HPE ASE**
 
-1. **Débutant**
-   - VMware VCA
-   - Dell ISM Foundation
-   - HPE ATP Server
+## 🛠️ Cas d'usage SUMM-IT
 
-2. **Intermédiaire**
-   - VMware VCP
-   - NetApp NCDA
-   - DataCore DCCA
-
-3. **Avancé**
-   - VMware VCAP
-   - HPE Master ASE
-   - NetApp NCIE
-
-## 🛠️ Cas d'usage types
-
-### Formation
+### Projets types
 ```
-"J'ai besoin de comprendre le fonctionnement de vSAN"
-"Prépare-moi à la certification VCP-DCV"
-"Crée un parcours d'apprentissage NetApp ONTAP"
+"Migration P2V vers VxRail"
+"Implémentation Cyber Recovery vault"
+"Design backup 3-2-1-1-0 multi-sites"
+"Architecture Zero Trust Fortinet"
 ```
 
-### Résolution de problèmes
+### Support client
 ```
-"Mon ESXi ne voit pas le LUN sur mon 3PAR"
-"Comment optimiser les performances de mon PowerStore?"
-"Problème de réplication SnapMirror"
-```
-
-### Quiz et validation
-```
-"Quiz de 20 questions niveau VCP sur vMotion"
-"Test mes connaissances en RAID Dell"
-"Simule un examen NCDA"
+"Sizing PowerStore pour 500 VMs"
+"Migration Veeam v11 vers v12"
+"Configuration Zerto multi-sites"
+"Optimisation performance DataDomain"
 ```
 
-## 📊 Tableau de bord personnel
+### Préparation certifications
+```
+"Simulation examen VCP-DCV"
+"Quiz intensif Veeam VMCE"
+"Révision NetApp NCDA"
+```
 
-### Technologies maîtrisées
-- [ ] Dell PowerEdge - Niveau: _____
-- [ ] HPE ProLiant - Niveau: _____
-- [ ] VMware vSphere - Niveau: _____
-- [ ] NetApp ONTAP - Niveau: _____
-- [ ] DataCore SANsymphony - Niveau: _____
+## 📊 Matrice de compétences
 
-### Certifications
-- [ ] En préparation: _____
-- [ ] Obtenues: _____
-- [ ] Prochaine cible: _____
+| Domaine | Technologies | Priorité |
+|---------|-------------|----------|
+| **Hyperviseurs** | VMware, Hyper-V, Proxmox | ⭐⭐⭐⭐ |
+| **Hyperconvergé** | VxRail, SimpliVity, DataCore | ⭐⭐⭐ |
+| **Stockage** | Dell, HPE, NetApp | ⭐⭐⭐⭐ |
+| **Sauvegarde** | Veeam, Zerto, Dell CR | ⭐⭐⭐⭐⭐ |
+| **Réseau** | Cisco, Aruba | ⭐⭐⭐ |
+| **Sécurité** | Fortinet, SentinelOne | ⭐⭐⭐⭐ |
 
 ## 🔄 Mises à jour
 
-Ce repository est mis à jour régulièrement avec :
-- Nouvelles technologies
-- Retours d'expérience
-- Questions fréquentes
-- Nouveaux labs et quiz
+Ce repository est mis à jour avec :
+- Nouvelles versions produits
+- Retours d'expérience projets
+- Best practices SUMM-IT
+- Nouvelles certifications
+- Evolution du portfolio
 
-## 📝 Notes
+## 📝 Standards SUMM-IT
 
-- Toujours tester en environnement de lab avant production
-- Vérifier la compatibilité des versions
-- Suivre les best practices des constructeurs
-- Documenter les configurations
+- Architecture 3-2-1 minimum pour backups
+- Tests DR trimestriels obligatoires
+- Cyber Recovery pour clients critiques
+- Zero Trust by design
+- Documentation systématique
+- Monitoring proactif 24/7
 
-## 🤝 Contribution
+## 🤝 Partenariats
 
-Pour améliorer ce profil :
-1. Partagez vos retours d'expérience
-2. Suggérez de nouveaux sujets
-3. Signalez les erreurs ou imprécisions
-4. Proposez des cas pratiques
+- **Dell Technologies** : Gold Partner
+- **HPE** : Silver Partner
+- **VMware** : Professional Partner
+- **Veeam** : Gold Partner
+- **NetApp** : Partner
+- **Fortinet** : Partner
 
 ## 📞 Support
 
-En cas de question sur l'utilisation de ce profil :
+Pour toute question sur ce profil :
 - Consultez le fichier CLAUD.md
+- Référez-vous à competences-summ-it.md
 - Demandez à Claude directement
 - Créez une issue sur le repository
 
 ---
 
-**Version** : 1.0.0  
+**Version** : 2.0.0  
 **Dernière mise à jour** : 2025-10-04  
-**Auteur** : Configuration assistée par Claude  
+**Entreprise** : SUMM-IT  
+**Repository** : claude-technique  
 **Contact** : Via GitHub Issues
